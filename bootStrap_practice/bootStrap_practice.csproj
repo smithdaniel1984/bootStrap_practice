@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Pictures\battleField1Pic.jpg" />
+    <None Include="wwwroot\Pictures\635494247142165630.jpg" />
+    <None Include="wwwroot\Pictures\cam-newton-wallpaper-hd1.png" />
+    <None Include="wwwroot\Pictures\wallpapers-kawasaki-bikes-wallpaper-picture-motocross-moto-motorcycle-motorcycles-images - Copy.jpg" />
+    <None Include="wwwroot\Videos\NBA 2K16.mp4" />
+  </ItemGroup>
+
+</Project>
